@@ -1,3 +1,7 @@
 # Repositorio base
 
-Este repositorio tiene las configuraciones y librerías necesarias para trabajar concurrencia
+Integrantes:
+
+Samuel Esobar Rivera - 2266363
+Joseph David Herrera Libreros - 2266309
+Juan David Cuellar López - 2266087

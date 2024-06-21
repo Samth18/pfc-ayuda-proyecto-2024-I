@@ -1,4 +1,4 @@
-# El problema de la planificaci´on de vuelos
+# El problema de la planificación de vuelos
 
 Integrantes:
 

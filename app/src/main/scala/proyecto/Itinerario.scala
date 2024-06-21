@@ -128,7 +128,9 @@ class Itinerario {
     }
 
     def esValido(itinerario: List[Vuelo], tiempoCita: Int): Boolean = {
-      calcularHoraLlegadaTotal(itinerario) <= tiempoCita
+      val horaLlegada = calcularHoraLlegadaTotal(itinerario)
+      // Considerar el caso de itinerarios que cruzan medianoche
+      horaLlegada <= tiempoCita || (horaLlegada < 1440 && tiempoCita < horaLlegada)
     }
 
     (origen: String, destino: String, horaCita: Int, minCita: Int) => {

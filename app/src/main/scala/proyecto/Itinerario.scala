@@ -28,6 +28,9 @@ class Itinerario {
   }
 
 
+
+
+
   def itinerariosTiempo(vuelos: List[Vuelo], aeropuertos: List[Aeropuerto]): (String, String) => List[List[Vuelo]] = {
 
     val buscarItinerariosFn = itinerarios(vuelos, aeropuertos)
